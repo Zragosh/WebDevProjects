@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Test tab</title>
+        <link rel="stylesheet" type="text/css" href="css\style.css">
+    </head>
+    <body>
+        <h1>Jetsetter Travel Agency</h1>
+        <p>With over 25 years of experience in concierge, high-end travel planning, we'll provide you with the highest quality services. Every vacation is unique, custom, and tailored to your tastes.</p>
+        <button onclick="changeColor()">Click here to change color!</button>
+    </body>
+        <script>
+            const getRandomColor = () => {
+                let letters = '0123456789ABCDEF';
+                let color = '#';
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+            const changeColor = () => {
+                let newColor = getRandomColor();
+                document.body.style.backgroundColor = newColor;
+            }
+        </script>
+</html>
