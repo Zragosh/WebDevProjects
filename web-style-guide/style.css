@@ -69,6 +69,65 @@ section {
     color: #fff;
 }
 
-li {
+.font-container {
+    width: 100%;
+}
+
+.font-panel {
+    width: 45%;
     display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.roboto-slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-container {
+    width: 100%;
+}
+
+.text-panel h1 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 32px;
+    Color: #5F6368
+}
+
+.text-panel h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 24px;
+    Color: #5F6368
+}
+
+.text-panel p {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 16px;
+    Color: #5F6368
 }
