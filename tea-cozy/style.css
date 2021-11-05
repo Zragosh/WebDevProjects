@@ -114,3 +114,12 @@ figure img {
 #locations h2 {
     margin-bottom: 0px;
 }
+
+.contact-info {
+    height: 200px;
+}
+
+footer .copyright {
+    text-align: left;
+    margin-left: 20px;
+}
