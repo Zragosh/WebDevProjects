@@ -48,10 +48,6 @@ main {
     align-items: center;
 }
 
-.container {
-    margin: 0px 20px;
-}
-
 #mission {
     height: 700px;
     width: 1200px;
@@ -90,4 +86,31 @@ figcaption h4 {
 figure img {
     height: 200px;
     width: 300px;
+}
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    background-image: url("images/img-locations-background.jpg");
+}
+
+.locations-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.location {
+    width: 300px;
+    height: auto;
+    margin: 0px 20px;
+    background-color: black;
+    opacity: 1;
+}
+
+#locations h2 {
+    margin-bottom: 0px;
 }
