@@ -61,8 +61,30 @@ main {
     justify-content: center;
 }
 
-.mission-content {
+.mission-text {
     background-color: black;
+}
+
+#gallery {
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pictures {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+figure {
+    margin: 10px;
+}
+
+figcaption h4 {
+    margin-top: 10px;
 }
 
 figure img {
