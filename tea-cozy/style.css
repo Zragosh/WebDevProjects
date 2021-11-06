@@ -115,6 +115,10 @@ figure img {
     margin-bottom: 0px;
 }
 
+footer {
+    border-top: 1px solid seashell;
+}
+
 .contact-info {
     height: 200px;
 }
