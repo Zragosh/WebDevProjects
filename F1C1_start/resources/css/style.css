@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -115,7 +116,7 @@ header .mobile {
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   height: 43.5rem;
   background-image: url("../images/banner-landingpage.jpg");
   background-repeat: no-repeat;
