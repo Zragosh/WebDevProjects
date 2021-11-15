@@ -1,0 +1,13 @@
+body {
+    background-color: aquamarine;
+}
+
+img {
+    height: 300px;
+}
+
+hr {
+    border-style: none;
+    height: 2px;
+    background-color: white;
+}
