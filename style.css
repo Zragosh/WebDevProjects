@@ -4,12 +4,12 @@ body {
 }
 
 img {
-    height: 300px;
+    width: 250px;
 }
 
 hr {
     border-style: dotted none none;
-    border-width: 8px;
-    width: 4%;
-    opacity: 0.2;
+    border-width: 6px;
+    width: 5%;
+    opacity: 0.4;
 }
