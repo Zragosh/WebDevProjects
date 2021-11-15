@@ -1,5 +1,6 @@
 body {
     background-color: #88E0EF;
+    color: darkslategray;
 }
 
 img {
@@ -7,7 +8,8 @@ img {
 }
 
 hr {
-    border-style: none;
-    height: 2px;
-    background-color: white;
+    border-style: dotted none none;
+    border-width: 8px;
+    width: 4%;
+    opacity: 0.2;
 }
