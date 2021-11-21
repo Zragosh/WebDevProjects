@@ -1,6 +1,5 @@
 body {
-    background-color: #88E0EF;
-    color: darkslategray;
+    background-color: #EAF6F6;
 }
 
 img {
@@ -13,3 +12,7 @@ hr {
     width: 5%;
     opacity: 0.4;
 }
+
+h1, h3 {
+    color: #66BFBF;
+} 
