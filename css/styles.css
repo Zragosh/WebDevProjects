@@ -151,3 +151,7 @@ hr {
 .footer-link {
   margin: 0 20px;
 }
+
+.footer-link:hover {
+  color: #30e3cb;
+}
