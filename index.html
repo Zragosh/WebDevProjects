@@ -64,7 +64,7 @@
     <p class="credits">© 2021 Dragos Cristea</p>
   </div>
   <script>
-    let promise = fetch('https://github.com/mdn/learning-area/blob/b1dd8610a21715e514547e01f558cf559ad328e0/javascript/asynchronous/promises/coffee.jpg');
+    let promise = fetch('coffee.jpg');
     let promise2 = promise.then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
